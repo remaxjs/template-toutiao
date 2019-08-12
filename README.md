@@ -5,7 +5,6 @@
 通过该模板创建一个新项目：
 
 ```bash
-$ npm install -g degit
 $ npx degit remaxjs/template-alipay my-app
 $ cd my-app
 ```
