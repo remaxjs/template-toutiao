@@ -7,7 +7,7 @@
 ```bash
 $ npm install -g degit
 $ npx degit remaxjs/template-alipay my-app
-% cd my-app
+$ cd my-app
 ```
 
 ## 开始开发
