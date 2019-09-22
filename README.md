@@ -1,11 +1,11 @@
-# Remax Alipay Template
+# Remax Toutiao Template
 
-使用 Remax 开发支付宝小程序的模板。
+使用 Remax 开发头条小程序的模板。
 
 通过该模板创建一个新项目：
 
 ```bash
-$ npx degit remaxjs/template-alipay my-app
+$ npx degit remaxjs/template-toutiao my-app
 $ cd my-app
 ```
 
@@ -23,7 +23,7 @@ $ npm install
 $ npm run dev
 ```
 
-使用支付宝小程序开发者工具打开项目下的 `dist` 目录。
+使用头条小程序开发者工具打开项目下的 `dist` 目录。
 
 ## 发布
 
@@ -31,4 +31,4 @@ $ npm run dev
 $ npm run build
 ```
 
-使用支付宝小程序开发者工具上传版本。
+使用头条小程序开发者工具上传版本。
