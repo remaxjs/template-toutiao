@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { View, Text, Image } from 'remax/alipay';
+import { View, Text, Image } from 'remax/toutiao';
 import clsx from 'clsx';
 import styles from './index.module.css';
 

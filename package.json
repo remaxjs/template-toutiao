@@ -8,10 +8,10 @@
   "author": "Wei Zhu <yesmeck@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "remax build -t alipay -w",
+    "dev": "remax build -t toutiao -w",
     "clean": "rimraf dist",
     "prebuild": "npm run clean",
-    "build": "NODE_ENV=production remax build -t alipay"
+    "build": "NODE_ENV=production remax build -t toutiao"
   },
   "dependencies": {
     "clsx": "^1.0.4",
