@@ -1,7 +1,6 @@
 import * as React from 'react';
 import { View, Text, Image } from 'remax/toutiao';
-import clsx from 'clsx';
-import styles from './index.module.css';
+import styles from './index.css';
 
 export default () => {
   return (
@@ -13,7 +12,8 @@ export default () => {
           alt="logo"
         />
         <View className={styles.text}>
-          编辑 <Text className={styles.path}>src/pages/index/index.js</Text> 开始
+          编辑 <Text className={styles.path}>src/pages/index/index.js</Text>{' '}
+          开始
         </View>
       </View>
     </View>
