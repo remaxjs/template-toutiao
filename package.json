@@ -9,6 +9,8 @@
   "license": "MIT",
   "scripts": {
     "dev": "remax build -t toutiao -w",
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
     "build": "NODE_ENV=production remax build -t toutiao"
   },
   "dependencies": {
